@@ -58,6 +58,7 @@ body::before {
   object-position: center top;
   border: 3px solid #75bfcb;
   margin-bottom: 12px;
+  margin-top: 40px;
 }
 
 .nombre {
