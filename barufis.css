@@ -105,6 +105,7 @@ iframe {
   text-decoration: none;
   transition: background 0.3s, transform 0.2s;
   max-width: 300px;
+  text-align: center;
 }
 
 .boton:hover {
