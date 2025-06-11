@@ -52,6 +52,7 @@ body::before {
   width: 500px;
   height: 500px;
   max-width: 50%;
+  max-height: auto;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #75bfcb;
