@@ -6,7 +6,6 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: #121212;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -15,8 +14,22 @@ body {
   padding: 20px;
 }
 
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("agua.webp");
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  z-index: -1;
+}
+
 .tarjeta {
-  background: #1e1e1e;
+  background: #141e26;
   border-radius: 16px;
   padding: 24px;
   max-width: 700px;
@@ -34,14 +47,14 @@ body {
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #ff6eb4;
+  border: 3px solid #75bfcb;
   margin-bottom: 12px;
 }
 
 .nombre {
   font-size: 1.8rem;
   margin-bottom: 8px;
-  color: #ff6eb4;
+  color: #75bfcb;
 }
 
 .redes {
@@ -73,7 +86,7 @@ iframe {
 
 /* Botones de enlaces */
 .boton {
-  background: #2a2a2a;
+  background: #2b3d5f;
   color: white;
   display: flex;
   align-items: center;
@@ -87,7 +100,7 @@ iframe {
 }
 
 .boton:hover {
-  background: #ff6eb4;
+  background: #75bfcb;
   transform: scale(1.02);
 }
 
