@@ -42,6 +42,7 @@ body::before {
   width: 100%;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
   text-align: center;
+  margen: 20px 10px;
 }
 
 .portada {
